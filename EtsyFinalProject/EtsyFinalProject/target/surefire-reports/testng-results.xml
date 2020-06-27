@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG.HybridAccountTest" duration-ms="84290" started-at="2020-06-27T21:00:17Z" finished-at="2020-06-27T21:01:41Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="84290" started-at="2020-06-27T21:00:17Z" finished-at="2020-06-27T21:01:41Z">
+      <class name="TestNG.HybridAccountTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestNG.HybridAccountTest@2acf57e3]" name="setUp" is-config="true" duration-ms="640" started-at="2020-06-27T21:00:17Z" finished-at="2020-06-27T21:00:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AccountTest(java.lang.String, java.lang.String)[pri:0, instance:TestNG.HybridAccountTest@2acf57e3]" name="AccountTest" duration-ms="40731" started-at="2020-06-27T21:00:20Z" data-provider="hybridData" finished-at="2020-06-27T21:01:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AccountTest.xlsx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[IncorrectPasswordChange]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestNG.HybridAccountTest@2acf57e3]" name="tearDown" is-config="true" duration-ms="5651" started-at="2020-06-27T21:01:00Z" finished-at="2020-06-27T21:01:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AccountTest status=SUCCESS method=HybridAccountTest.AccountTest(java.lang.String, java.lang.String)[pri:0, instance:TestNG.HybridAccountTest@2acf57e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="AccountTest(java.lang.String, java.lang.String)[pri:0, instance:TestNG.HybridAccountTest@2acf57e3]" name="AccountTest" duration-ms="30638" started-at="2020-06-27T21:01:06Z" data-provider="hybridData" finished-at="2020-06-27T21:01:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AccountTest.xlsx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CorrectAccountPage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestNG.HybridAccountTest@2acf57e3]" name="tearDown" is-config="true" duration-ms="4637" started-at="2020-06-27T21:01:37Z" finished-at="2020-06-27T21:01:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AccountTest status=SUCCESS method=HybridAccountTest.AccountTest(java.lang.String, java.lang.String)[pri:0, instance:TestNG.HybridAccountTest@2acf57e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNG.HybridAccountTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- TestNG.HybridAccountTest -->
+</testng-results>
