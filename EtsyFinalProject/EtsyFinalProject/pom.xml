@@ -39,12 +39,7 @@
             <type>jar</type>
         </dependency>
 
-<dependency>
-    <groupId>net.masterthought</groupId>
-    <artifactId>cucumber-reporting</artifactId>
-    <version>(check version above)</version>
-</dependency>
-        
+
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
